@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.warp{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    width: 400px;
+    height: 300px;
+ background-color: white;
+
+    justify-content: center;
+    display: flex;
+    align-items: center   ;
+   
+    border: dashed grey 0.5rem ;
+    border-radius: 7%;
+
+    margin-top: 170px;
+
+
+
+}
+
+.g{
+    width: 60%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.gol{
+ width: 500px;
+ height: 100%;
+
+ display: flex;
+ justify-content: center;
+ border:  black solid 3px;
+ border-radius: 12px;
+}
+.butt{
+width: 100%;
+height: 100%;
+display: flex;
+background-color: white;
+align-items: center;
+justify-content: center;
+
+
+
+
+
+
+
+
+
+}
+input{
+ width: 100%;
+    height: 100%;
+opacity: 0;
+}
+
+
+
+.text{
+    width: 500px;
+    height: 100px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.line{
+    width: 100%;
+    height: 100px;
+    background-color: grey;
+    display: flex;
+   padding: 30px;
+    align-items: center;
+    transition: 1s;
+    
+}
+
+button{
+    width: 100px;
+    height: 50px;
+border-radius: 12px;
+ margin-left: 20px;
+  
+}
+
+
+
